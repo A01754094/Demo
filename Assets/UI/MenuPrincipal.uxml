@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Titulo.uss?fileID=7433441132597879392&amp;guid=2b367091d73571d498a2433af9dc9c98&amp;type=3#Titulo"/>
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1;">
+        <ui:Label text="Label" binding-path="Menu Principal" class="titulo" style="height: 289px; width: 1805px;"/>
+    </ui:VisualElement>
+    <ui:VisualElement name="Botones" class="botones" style="flex-grow: 1; flex-direction: row; justify-content: space-around;">
+        <ui:Button text="Jugar X" name="BotonJugarX" class="boton-juego"/>
+        <ui:Button text="Jugar Mapa" name="BotonJugarMapa" class="boton-juego"/>
+    </ui:VisualElement>
+</ui:UXML>

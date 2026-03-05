@@ -1,0 +1,25 @@
+:root {
+}
+
+.titulo {
+    font-size: 70px;
+    align-items: auto;
+    justify-content: center;
+    align-self: center;
+}
+
+.botones {
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-juego {
+    font-size: 48px;
+    width: 400px;
+    height: 300px;
+    background-image: url("project://database/Assets/Saurabh_Studio/UI%20button%20and%20hallowing%20element%20pack%205/Button%206/7.png?fileID=2800000&guid=d3dd507249881854fbaa9d44a29f0d89&type=3#7");
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+}
